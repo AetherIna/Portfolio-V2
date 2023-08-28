@@ -1,0 +1,24 @@
+.myWork {
+    margin-top: 50px;
+}
+
+.myWork .title2 img {
+    height: 65px;    
+    padding: 0px 400px;
+}
+
+.myWork .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.myWork .content img {
+    width: 350px;
+    height: 200px;
+
+    margin: 25px;
+
+    border: 2px black dotted;
+}

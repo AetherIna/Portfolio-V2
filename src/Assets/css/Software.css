@@ -1,0 +1,25 @@
+.abilities {
+    margin: 20px;
+    padding: 0px 400px;
+    border-top: black 2px dotted;
+}
+
+.abilities .title {
+    height: 100px;
+}
+
+.abilities .list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.abilities .list .clip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abilities .list .clip img {
+    height: 64px;
+    width: 64px;
+}
