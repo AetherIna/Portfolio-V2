@@ -1,0 +1,36 @@
+.contacts {
+    margin: 75px 20px 0;
+    padding: 0px 345px;
+}
+
+.contacts::before {
+    content: "";
+    position: absolute;
+    width: 25%;
+    left: 35vw;
+    height: 2px;
+    margin: -17px 0;
+    background-color: #000;
+}
+
+.contacts .title img{
+    height: 100px;
+}
+
+.contacts .info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacts .info .icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 65px;
+}
+
+.contacts .info .icon img {
+    height: 64px;
+    width: 64px;
+    margin: 0 20px;
+}

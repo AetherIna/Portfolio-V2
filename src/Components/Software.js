@@ -2,8 +2,8 @@ import React from "react";
 
 import '../Assets/css/Software.css'
 
-import Icon1 from '../Assets/Clip.png';
-import Icon2 from '../Assets/Visual.png'
+import Icon1 from '../Assets/Icons/Clip.png';
+import Icon2 from '../Assets/Icons/Visual.png'
 import softimg from '../Assets/Software.png'
 
  function Software() {
@@ -11,7 +11,7 @@ import softimg from '../Assets/Software.png'
         <React.Fragment>
             <div className="abilities">
                 <div className="title">
-                    <img src={ softimg }>
+                    <img src={ softimg } alt="idk">
                         
                     </img>
                 </div>
