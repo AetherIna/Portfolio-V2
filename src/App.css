@@ -1,4 +1,10 @@
 .App {
   background-color: rgb(218 228 255);
+  color: black;
 }
 
+.App .thanks {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}

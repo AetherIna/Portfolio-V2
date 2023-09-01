@@ -11,6 +11,10 @@ function App() {
       <Software />
       <MyWork />
       <Contact />
+
+      <div className='thanks'>
+        <p>made with ♥ by Aether!</p>
+      </div>
     </div>
   );
 }
