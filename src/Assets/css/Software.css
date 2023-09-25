@@ -1,7 +1,16 @@
 .abilities {
     margin: 20px;
     padding: 0px 400px;
-    border-top: black 2px dotted;
+}
+
+.abilities::before {
+    content: "";
+    position: absolute;
+    width: 25%;
+    left: 35vw;
+    height: 2px;
+    margin: -17px 0;
+    background-color: #000;
 }
 
 .abilities .title img{
